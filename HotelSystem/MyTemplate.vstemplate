@@ -1,0 +1,90 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>HotelSystem</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>HotelSystem</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="HotelSystem.csproj" File="HotelSystem.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CommonMethods.cs">CommonMethods.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CommonMethodsBase.cs">CommonMethodsBase.cs</ProjectItem>
+      <Folder Name="Entity" TargetFolderName="Entity">
+        <ProjectItem ReplaceParameters="true" TargetFileName="firmalar.cs">firmalar.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="OdaEsyaları.cs">vstg0001.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Odalar.cs">Odalar.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RoomType.cs">RoomType.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Users.cs">Users.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="UserType.cs">UserType.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Facade" TargetFolderName="Facade">
+        <ProjectItem ReplaceParameters="true" TargetFileName="FirmalarOrm.cs">FirmalarOrm.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="OdaEsyalarıOrm.cs">vstg0002.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="OdalarOrm.cs">OdalarOrm.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PersonelTipOrm.cs">PersonelTipOrm.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RoomTypeOrm.cs">RoomTypeOrm.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="UsersOrm.cs">UsersOrm.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="UserTypeOrm.cs">UserTypeOrm.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Formlar" TargetFolderName="Formlar">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Fİrma İşlemleri.cs">vstg0003.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Fİrma İşlemleri.Designer.cs">vstg0004.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Fİrma İşlemleri.resx">vstg0005.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Giris.cs">Giris.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Giris.Designer.cs">Giris.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Giris.resx">Giris.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Müsteriİslemleri.cs">vstg0006.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Müsteriİslemleri.Designer.cs">vstg0007.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Müsteriİslemleri.resx">vstg0008.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Oda Tipi İşlemleri.cs">vstg0009.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Oda Tipi İşlemleri.Designer.cs">vstg0010.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Oda Tipi İşlemleri.resx">vstg0011.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Odalarımız.cs">vstg0012.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Odalarımız.Designer.cs">vstg0013.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Odalarımız.resx">vstg0014.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Personelİslemleri.cs">vstg0015.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Personelİslemleri.Designer.cs">vstg0016.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Personelİslemleri.resx">vstg0017.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PersonelTip.cs">PersonelTip.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PersonelTip.Designer.cs">PersonelTip.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PersonelTip.resx">PersonelTip.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RecepsiyonAnaEkran.cs">RecepsiyonAnaEkran.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RecepsiyonAnaEkran.Designer.cs">RecepsiyonAnaEkran.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RecepsiyonAnaEkran.resx">RecepsiyonAnaEkran.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resepsiyonist Giriş.cs">vstg0018.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resepsiyonist Giriş.Designer.cs">vstg0019.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resepsiyonist Giriş.resx">vstg0020.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Rezervasyonİşlemleri.cs">vstg0021.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Rezervasyonİşlemleri.Designer.cs">vstg0022.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Rezervasyonİşlemleri.resx">vstg0023.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Yonetici Giris.cs">Yonetici Giris.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Yonetici Giris.Designer.cs">Yonetici Giris.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Yonetici Giris.resx">Yonetici Giris.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="YöneticiAnaEkran.cs">vstg0024.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="YöneticiAnaEkran.Designer.cs">vstg0025.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="YöneticiAnaEkran.resx">vstg0026.resx</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="HotelSystem_TemporaryKey.pfx">HotelSystem_TemporaryKey.pfx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KomutTip.cs">KomutTip.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Tools.cs">Tools.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
